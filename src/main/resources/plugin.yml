@@ -1,0 +1,10 @@
+name: AddPerm
+version: 1.0
+main: prj.salmon.addparm.Add_parm
+api-version: 1.20
+commands:
+  addbuilder:
+    description: Add a player to the builder group.
+    usage: /addbuilder <MCID>
+    permission: addbuilder.use
+
